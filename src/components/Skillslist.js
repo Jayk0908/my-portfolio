@@ -46,13 +46,13 @@ const SkillsList = () => {
     <div className="container mx-auto p-8 font-league-spartan grid grid-cols-2 gap-8">
       {/* UI/UX Section */}
       <div>
-        <h1 className='text-3xl font-extrabold text-black mb-2'>UI/UX</h1>
+        <h1 className='text-3xl font-extrabold text-black mb-2 max-lg:text-2xl'>UI/UX</h1>
         <div className="flex flex-col">
           {skillsData
             .filter((skill) => skill.section === 'UI/UX')
             .map((skill, index) => (
               <div key={index} className="mb-6">
-                <div className="font-bold text-2xl text-black">{skill.name}</div>
+                <div className="font-bold text-2xl text-black max-lg:text-xl">{skill.name}</div>
                 <div className="relative pt-2">
                   <div className="overflow-hidden h-8 mb-4 flex rounded bg-black bg-opacity-25">
                     <div
@@ -72,13 +72,13 @@ const SkillsList = () => {
 
       {/* Coding Section */}
       <div>
-        <h1 className='text-3xl font-extrabold text-black mb-2'>Coding</h1>
+        <h1 className='text-3xl font-extrabold text-black mb-2 max-lg:text-2xl '>Coding</h1>
         <div className="flex flex-col">
           {skillsData
             .filter((skill) => skill.section === 'Coding')
             .map((skill, index) => (
               <div key={index} className="mb-6">
-                <div className="font-bold text-2xl text-black">{skill.name}</div>
+                <div className="font-bold text-2xl text-black max-lg:text-xl">{skill.name}</div>
                 <div className="relative pt-2">
                   <div className="overflow-hidden h-8 mb-4 text-xs flex rounded bg-black bg-opacity-25">
                     <div
@@ -98,13 +98,13 @@ const SkillsList = () => {
 
       {/* Designing Section */}
       <div>
-        <h1 className='text-3xl font-extrabold text-black mb-2'>Designing</h1>
+        <h1 className='text-3xl font-extrabold text-black mb-2 max-lg:text-2xl'>Designing</h1>
         <div className="flex flex-col">
           {skillsData
             .filter((skill) => skill.section === 'Designing')
             .map((skill, index) => (
               <div key={index} className="mb-6">
-                <div className="font-bold text-2xl text-black">{skill.name}</div>
+                <div className="font-bold text-2xl text-black max-lg:text-xl">{skill.name}</div>
                 <div className="relative pt-2">
                   <div className="overflow-hidden h-8 mb-4 text-xs flex rounded bg-black bg-opacity-25">
                     <div
@@ -124,13 +124,13 @@ const SkillsList = () => {
 
       {/* Miscellaneous Section */}
       <div>
-        <h1 className='text-3xl font-extrabold text-black mb-2'>Miscellaneous</h1>
+        <h1 className='text-3xl font-extrabold text-black mb-2 max-lg:text-2xl'>Miscellaneous</h1>
         <div className="flex flex-col">
           {skillsData
             .filter((skill) => skill.section === 'Miscellaneous')
             .map((skill, index) => (
               <div key={index} className="mb-6">
-                <div className="font-bold text-2xl text-black">{skill.name}</div>
+                <div className="font-bold text-2xl text-black max-lg:text-xl">{skill.name}</div>
                 <div className="relative pt-2">
                   <div className="overflow-hidden h-8 mb-4 text-xs flex rounded bg-black bg-opacity-25">
                     <div

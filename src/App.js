@@ -39,13 +39,13 @@ export default function App() {
         </div>
 
         {/* Contact Button */}
-        <button className='absolute max-lg:inset-x-0 max-lg:bottom-72 lg:top-12 lg:right-20 z-10 text-2xl font-bold text-white'>
+        <button className='absolute max-lg:inset-x-0 max-lg:inset-y-128 lg:top-12 lg:right-20 z-10 text-2xl font-bold text-white'>
           <a href="mailto:jayklos0908@gmail.com" className="text-white bg-black py-2 px-4 font-spartan rounded-lg">CONTACT ME</a>
         </button>
 
         {/* Arrow SVG */}
         <div
-          className=' max-lg:inset-x-0 absolute max-lg:bottom-20 lg:inset-y-96 max-3xl:left-48 max-2xl:left-20 max-xl:left-10 z-10 p-8'
+          className=' max-lg:inset-x-0 absolute max-lg:inset-y-136 lg:inset-y-96 max-3xl:left-48 max-2xl:left-20 max-xl:left-10 z-10 p-8'
           onClick={handleScrollToProjects}
         >
         <div className='lg:bg-white bg-opacity-100 rounded-full flex flex-col items-center p-2 '>
@@ -93,7 +93,7 @@ export default function App() {
       </div>
 
       {/* Tools & Skills Section */}
-      <div className='pt-32 pl-20 pb-5 font-spartan font-extrabold text-5xl'><h1>TOOLS & SKILLS</h1></div>
+      <div className='pt-32 max-lg:pt-20 lg:pl-20 pb-5 font-spartan font-extrabold text-5xl max-lg:text-4xl max-lg:text-center'><h1>TOOLS & SKILLS</h1></div>
       <div>
         <SkillsList />
       </div>
