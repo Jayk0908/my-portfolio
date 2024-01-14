@@ -23,7 +23,7 @@ const SkillsList = () => {
     // Miscellaneous Section
     { section: 'Miscellaneous', name: 'Problem Solving', level: 4 },
     { section: 'Miscellaneous', name: 'Communication', level: 3 },
-    { section: 'Miscellaneous', name: 'Team Collaboration', level: 2 },
+    { section: 'Miscellaneous', name: 'Scrum', level: 3 },
     // Add more miscellaneous skills as needed
   ];
 

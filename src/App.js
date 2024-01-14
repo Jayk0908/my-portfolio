@@ -59,8 +59,13 @@ const projectsRef = useRef(null);
       </div>
 
       {/* Projects Section */}
-      <div className='pt-6 Lg:pl-20 lg:pb-20 bg-white bg-opacity-100'>
-        <h1 className='p-12 text-5xl max-lg:text-center font-extrabold'>PROJECTS</h1>
+      <div className='pt-6 Lg:pl-20 bg-white bg-opacity-100'>
+        <h1 className='p-12 text-5xl max-lg:text-center font-extrabold font-spartan'>PROJECTS</h1>
+      </div>
+      <div className='z-10'>
+        <p className='font-spartan pb-10 lg:text-2xl px-20'>During my bachelor to become an innovative developer i've learnt to use my creativity
+        to solve complex it-related problems. Here are two im very proud of:
+          </p>
       </div>
       <div ref={projectsRef} className='font-spartan p-8' style={{ paddingTop: 'calc(50vh - 40rem)' }}>
         <div className="flex max-lg:flex-col px-12">
@@ -93,7 +98,14 @@ const projectsRef = useRef(null);
       </div>
 
       {/* Tools & Skills Section */}
-      <div className='pt-32 max-lg:pt-20 lg:pl-20 pb-5 font-spartan font-extrabold text-5xl max-lg:text-4xl max-lg:text-center'><h1>TOOLS & SKILLS</h1></div>
+      <div className='pt-32 max-lg:pt-20 lg:pl-20 pb-10 font-spartan font-extrabold text-5xl max-lg:text-4xl max-lg:text-center'>
+        <h1>TOOLS & SKILLS</h1>
+      </div>
+      <div className='z-10'>
+        <p className='font-spartan pb-10 lg:text-2xl px-20'>Along my journey of becoming a innovative developer i've learnt several skills and tools to solve 
+        the complex problems handed to me. Here are some listed with my proficiency for each of them.
+          </p>
+      </div>
       <div>
         <SkillsList />
       </div>
@@ -211,6 +223,18 @@ const projectsRef = useRef(null);
           </div>
           <ColorTest />
         </div>
+      </div>
+      
+      <div className="pt-16 max-lg:pt-10 lg:pl-20 pb-5 font-spartan font-extrabold text-5xl max-lg:text-4xl max-lg:text-center">
+        <h1>WHAT DO I WANT </h1>
+      </div>
+      <div className='z-10 pb-20'>
+        <p className='relative bg-white text-2xl font-spartan mx-20 py-5'> 
+        I want to work for a company that respects me as a professional. I respect everyone's views and beliefs and what they bring to the table as a professional
+        and I expect nothing less from my colleagues and managers. Although there needs to be structure inside of a company I don't like to be bossed around, I think
+        a respectful relationship between the managers and colleagues creates a better working culture. Other than that all I need is a computer, some colleagues who
+        I can joke around with and I think thats the perfect recipe for an ideal workplace.
+        </p>
       </div>
 
     </div>
